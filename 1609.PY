@@ -32,3 +32,33 @@ menor_nota = min(notas)
 print(f"Quantidade de notas: {quantidade_notas}")
 print(f"Maior nota: {maior_nota}")
 print(f"Menor nota: {menor_nota}")
+###########atividade de while############
+print("Usando laço for:")
+for i in range(1, 11):
+    print(i)
+
+print("\nUsando laço while:")
+contador = 1
+while contador <= 10:
+    print(contador)
+    contador += 1
+######################################
+print("Usando laço for:")
+for i in range(5):
+    print(f"Repetição for {i+1}")
+
+print("\nUsando laço while:")
+contador = 0
+while contador < 5:
+    print(f"Repetição while {contador+1}")
+    contador += 1
+######################################
+print("Usando laço for:")
+for i in range(2, 11, 2):
+    print(i)
+
+print("\nUsando laço while:")
+numero = 2
+while numero <= 10:
+    print(numero)
+    numero += 2
